@@ -1,0 +1,75 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: Helvetica;
+	font-size: 50pt;
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+
+div {
+	z-index: 1;
+	top:0;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(39,39,39,1) 66%, rgba(180,180,180,1) 100%);
+}
+
+article.one {
+	font-family: 'Noto Naskh Arabic', serif;
+ 	direction: rtl;
+  	font-size: 10pt;
+  	color: black;
+  	padding-top: 100px;
+  	width: 100vw;
+  	padding-bottom: 220px;
+ }
+
+section{
+	display: inline-block;
+	vertical-align: top;
+	width: 17%;
+	background-color: transparent;
+	padding: 10px;
+	font-size: 15pt;
+}
+
+ body{
+	background: -webkit-linear-gradient(90deg, rgba(180,180,180,1) 0%, rgba(151,151,151,1) 33%, rgba(0,0,0,1) 66%, rgba(39,39,39,1) 100%);
+	-webkit-background-clip: text;
+}
+
+main{
+	z-index: 1000;
+}
+
+p.text{
+  position: absolute;
+  width:10%;
+  direction: ltr;
+  text-align: center;
+  font-size: 17pt;
+  color: white;
+  opacity: 0;
+  line-height: 30pt;
+
+  /*the following properties center the text within its parent section*/
+ 
+}
+/*
+article.two {
+	position: absolute;
+	font-family: helvetica;
+ 	direction: rtl;
+  	color: white;
+  	top: 0;
+  	z-index: 0;
+  	opacity: 30%
+ }
+ p{
+ 	z-index: 100;
+	display: inline-block;
+	vertical-align: top;
+	width: 17%;
+	background-color: transparent;
+	padding: 10px;
+	font-size: 10pt;
+}*/

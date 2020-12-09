@@ -1,0 +1,41 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: Courier;
+	font-size: 32pt;
+}
+
+body {
+	overflow: hidden;
+}
+
+div {
+	/*the black div is a 100px ~box with a huge border, the div is set to follow the position of the mouse in JS*/
+	position:fixed;
+	top:0;
+	left:0%;
+	height:100px;
+	width:100px;
+	border-radius: 3600px; /*border radius rounds the corner of the element it is applied to, change this value to see what it does*/
+	border:1800px solid black;
+}
+
+/* Urdu Font */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+
+p.urdu{
+  font-family: 'Noto Naskh Arabic', serif;
+  direction: rtl;
+  font-size: 20pt;
+ padding-right: 5vw;
+}
+
+p.eng{
+	font-size: 18pt;
+	padding-left: 5vw;
+	position: absolute;
+	top: 0;
+	font-family: Helvetica;
+}
+

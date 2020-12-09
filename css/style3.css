@@ -1,0 +1,50 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: Helvetica;
+	font-size: 50pt;
+}
+img{
+	width: 20vw;
+}
+/*
+article{
+ 	direction: rtl;
+ 	left: 20px;
+ }
+
+section{
+	display: inline-block;
+	width: 23%;
+}
+
+main{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+*/
+section{
+	position: absolute;
+	top: 10vw;
+}
+#one, #five{
+	right: 20vw;
+}
+
+#two, #six{
+	right: 31vw;
+}
+
+#three, #seven{
+	right: 50vw;
+}
+#four, #eight{
+	right: 62vw;
+}
+
+#five, #six, #seven, #eight{
+	top: 25vw;
+}
+

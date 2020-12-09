@@ -1,0 +1,85 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: Courier;
+	font-size: 32pt;
+}
+
+/* Urdu Font */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+
+body{
+	background-color: black;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Noto Naskh Arabic', serif;
+	  direction: rtl;
+	  font-size: 12pt;
+	  padding: 40px;
+}
+
+section{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+article{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*overlay*/
+.overlay {
+  position:absolute;
+  top:0;
+  width:100vw;
+  height:100vh;
+  z-index: 99;
+  background-color:rgba(255, 255, 255, 0.3);
+  cursor:pointer;
+}
+
+.overlay h1 {
+	font-family: helvetica;
+  font-weight: normal;
+  text-align: center;
+  font-size:19pt;
+  display: inline-block;
+  margin-top:50vh;
+  margin-left:50vw;
+  transform:translate(-50%, -50%);
+  opacity:100%;
+}
+
+.overlay h1:hover {
+  opacity:0.5;
+}
+
+p.text{
+  position: absolute;
+  direction: ltr;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 10pt;
+  color: white;
+  opacity: 0;
+ top: 18vh;
+}
+
+
+section#one p.text {
+	left: 2.2vw;
+}
+section#two p.text {
+	left: 11vw;
+}
+section#three p.text {
+	left: 28vw;
+}
